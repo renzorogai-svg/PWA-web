@@ -1,0 +1,53 @@
+:root {
+  --color-primary: #2563eb;
+  --color-primary-dark: #1e3a8a;
+  --color-bg: #f8fafc;
+  --color-text: #1e293b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+main {
+  max-width: 32rem;
+}
+
+.logo {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  color: var(--color-primary-dark);
+}
+
+#install-button {
+  display: none;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#install-button:hover {
+  background-color: var(--color-primary-dark);
+}
